@@ -1,0 +1,89 @@
+
+# =========================
+# Java / JVM
+# =========================
+*.class
+*.log
+hs_err_pid*
+replay_pid*
+
+# =========================
+# Maven
+# =========================
+target/
+
+# Keep Maven Wrapper files committed:
+# .mvn/wrapper/*
+# mvnw
+# mvnw.cmd
+
+# =========================
+# Gradle (if used)
+# =========================
+.gradle/
+build/
+
+# =========================
+# IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+out/
+
+# =========================
+# Eclipse / STS
+# =========================
+.classpath
+.project
+.settings/
+.springBeans
+.sts4-cache/
+
+# =========================
+# Test / Coverage
+# =========================
+.coverage/
+coverage/
+*.exec
+*.hprof
+
+# =========================
+# Runtime / Local Data
+# =========================
+/logs/
+*.pid
+*.seed
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Local-only Spring configuration
+application-local.yml
+application-local.yaml
+application-local.properties
+application-*-local.yml
+application-*-local.yaml
+application-*-local.properties
+
+# =========================
+# Operating Systems
+# =========================
+.DS_Store
+.AppleDouble
+.LSOverride
+Thumbs.db
+Desktop.ini
+
+# =========================
+# Explicit Root Exclusions
+# =========================
+/.github/
+/.opencode/
+/AGENTS.md
+/README.md
+/SKILLS.txt
