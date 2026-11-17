@@ -63,12 +63,10 @@ coverage/
 !.env.*.example
 
 # Local-only Spring configuration
+application.yml
+application.properties
 application-local.yml
-application-local.yaml
 application-local.properties
-application-*-local.yml
-application-*-local.yaml
-application-*-local.properties
 
 # =========================
 # Operating Systems
@@ -83,7 +81,4 @@ Desktop.ini
 # Explicit Root Exclusions
 # =========================
 /.github/
-/.opencode/
-/AGENTS.md
-/README.md
-/SKILLS.txt
+/k8s
